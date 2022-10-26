@@ -14,11 +14,10 @@ const number10 = Number(prompt("inserisci il decimo numero"));
 
 
 const listNumbers = [number1, number2, number3, number4, number5, number6, number7, number8, number9, number10];
-console.log(number1);
 
 let sum;
 
-for ( i=0; i<3; i++) {
+for ( i=0; i<11; i++) {
     sum = number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10;
 }
 
